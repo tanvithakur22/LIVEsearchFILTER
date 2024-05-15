@@ -1,0 +1,50 @@
+
+  video{
+    position: relative;
+    left: 100px;
+
+  }
+  .content-container{
+    background: linear-gradient(to right, #01461e, #027d52);
+    height: 680px;
+    width: 1000px;
+    position: relative;
+    left: -1150px;
+    top: -500px;
+    
+
+  }
+  #user-list-container {
+    max-height: 450px; 
+    overflow-y: auto; 
+  }
+  #user-list-container::-webkit-scrollbar {
+    width: 4px; 
+  }
+  .user-box{
+    height: 120px;
+    overflow: hidden;
+  }
+  .user-info h4,
+  .user-info p {
+    margin-bottom: 5px; 
+  }
+
+  h1{
+    font-family: "Merriweather", serif;
+    color: white;
+  }
+  p{
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    color: rgb(146, 186, 149);
+  }
+
+  svg{
+    position: relative;
+    left: -30px;
+  }
+
+  h4{
+    color: #0ad39e;
+  }
